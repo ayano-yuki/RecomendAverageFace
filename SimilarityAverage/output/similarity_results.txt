@@ -1,0 +1,38 @@
+平均顔との類似度結果（FaceAnalyzer準拠）
+==================================================
+
+1403970539751_face_000.jpg     類似度: 0.9523
+1403970539751_face_001.jpg     類似度: 0.9361
+1403970539751_face_002.jpg     類似度: 0.9280
+20230211202435_face_000.jpg    類似度: 0.9593
+20230211203251_face_000.jpg    類似度: 0.9643
+20230211203251_face_001.jpg    類似度: 0.9621
+75QsVNWNZbCsMzxacLTY1DQsh4fmtXxiq8JmXgUc_face_000.jpg 類似度: 0.9534
+75QsVNWNZbCsMzxacLTY1DQsh4fmtXxiq8JmXgUc_face_001.jpg 類似度: 0.9779
+ea1fac22_face_000.jpg          類似度: 0.9424
+ea1fac22_face_001.jpg          類似度: 0.9573
+ea1fac22_face_002.jpg          類似度: 0.9693
+ea1fac22_face_003.jpg          類似度: 0.9532
+ea1fac22_face_004.jpg          類似度: 0.9451
+ea1fac22_face_005.jpg          類似度: 0.9427
+ea1fac22_face_006.jpg          類似度: 0.9627
+ea1fac22_face_007.jpg          類似度: 0.9700
+
+類似度順ランキング:
+--------------------------------------------------
+ 1位: 75QsVNWNZbCsMzxacLTY1DQsh4fmtXxiq8JmXgUc_face_001.jpg 類似度: 0.9779
+ 2位: ea1fac22_face_007.jpg          類似度: 0.9700
+ 3位: ea1fac22_face_002.jpg          類似度: 0.9693
+ 4位: 20230211203251_face_000.jpg    類似度: 0.9643
+ 5位: ea1fac22_face_006.jpg          類似度: 0.9627
+ 6位: 20230211203251_face_001.jpg    類似度: 0.9621
+ 7位: 20230211202435_face_000.jpg    類似度: 0.9593
+ 8位: ea1fac22_face_001.jpg          類似度: 0.9573
+ 9位: 75QsVNWNZbCsMzxacLTY1DQsh4fmtXxiq8JmXgUc_face_000.jpg 類似度: 0.9534
+10位: ea1fac22_face_003.jpg          類似度: 0.9532
+11位: 1403970539751_face_000.jpg     類似度: 0.9523
+12位: ea1fac22_face_004.jpg          類似度: 0.9451
+13位: ea1fac22_face_005.jpg          類似度: 0.9427
+14位: ea1fac22_face_000.jpg          類似度: 0.9424
+15位: 1403970539751_face_001.jpg     類似度: 0.9361
+16位: 1403970539751_face_002.jpg     類似度: 0.9280
