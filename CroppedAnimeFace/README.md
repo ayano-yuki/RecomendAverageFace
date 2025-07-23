@@ -36,10 +36,7 @@ docker build -t cropped-anime-face .
 #### 実行
 
 ```
-docker run -v ${PWD}\input:/app/input \
-           -v ${PWD}\output:/app/output \
-           -v ${PWD}\models:/app/models \
-           cropped-anime-face
+docker run -v ${PWD}\input:/app/input ${PWD}\output:/app/output -v ${PWD}\models:/app/models 
 ```
 
 - `input` フォルダに画像を入れてから実行してください。
