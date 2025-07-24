@@ -1,0 +1,4 @@
+user_id,anime_id,watched
+user01,101,1
+user01,102,0
+user02,101,0 

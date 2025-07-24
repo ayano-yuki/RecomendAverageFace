@@ -1,0 +1,4 @@
+user_id,character_id,similarity
+user01,1,0.92
+user01,2,0.85
+user01,3,0.60 
