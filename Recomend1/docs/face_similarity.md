@@ -5,7 +5,8 @@
 - **顔検出**：`CroppedAnimeFace/anime_face_detector.py`でAnimeFaceDetector（アニメ顔専用の深層学習モデル）を利用し、画像からアニメキャラの顔領域を自動検出。
 - **顔画像の切り出し**：検出した顔を128x128ピクセルにリサイズし、`CroppedAnimeFace/output/`や`CreateAverageFace/cropped_faces/`に保存。
 - **平均顔生成**：`CreateAverageFace/main.py`で、複数の顔画像を画素ごとに平均化（ピクセル平均）して平均顔画像を作成。
-- **特徴量抽出・類似度計算**：`SimilarityAverage/face_analyzer.py`等で、顔画像から深層学習モデル（例：VGGFaceや独自モデル）で特徴ベクトルを抽出し、ユーザー顔とキャラ平均顔のコサイン類似度を計算。
+- **特徴量抽出・類似度計算**：`SimilarityAverage/face_analyzer.py`等で、顔画像から深層学習モデル（例：VGGFaceや独自モデル）で特徴ベクトルを抽出し、
+  - 「ユーザーの推しキャラの平均顔の特徴量」と「各キャラ顔特徴量」からコサイン類似度を計算。
 - **類似度記録**：計算結果を`SimilarityAverage/output/similarity_results.txt`や`Recomend1/data/similarity_results.csv`に保存。
 - **レコメンド**：`Recomend1/main.py`で、類似度・レビュー・ジャンル好み等を合成スコア化し、未視聴アニメを推薦。
 
@@ -49,7 +50,7 @@
 - コサイン類似度（cosine similarity）を用いるのが一般的
   - 数式: similarity = (A・B) / (||A|| * ||B||)
   - 1に近いほど似ている
-- ユーザー顔特徴ベクトルと各キャラ平均顔特徴ベクトルの類似度を計算
+- **「ユーザーの推しキャラの平均顔の特徴量」と「各キャラ顔特徴量」からコサイン類似度を計算**
 - 結果を`similarity_results.csv`に保存
 
 ### (3) 閾値設定
